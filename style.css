@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+#box{
+    margin-top:20px;
+    border:2px solid whitesmoke;
+    width:90%;
+    margin:0 auto;
+    box-shadow: 0px 2px rgb(189, 187, 187);
+}
+#partition1{
+
+    border-bottom:1px solid whitesmoke;
+}
+
+form{
+    width:93%;
+    margin: 15px auto 5px;
+}
+label{
+    display:block;
+    font-size: 2rem;
+    margin-bottom:25px;
+}
+input{
+    border:none;
+    width:100%;
+    border-bottom: 2px solid whitesmoke;
+    outline:none;
+    margin-bottom: 10px;
+}
+#btn1,#btn2{
+    margin-left:15px;
+}
+#partition1 > p{
+    border:1px hidden;
+    border-radius: 4px;
+    display:inline-block;
+    color:white;
+    cursor: pointer;
+    padding:8px 25px;
+    box-shadow: 1px 1px rgb(72, 224, 105);
+    background-color:rgb(11, 184, 48);
+}
+#partition1 > p:hover{
+    opacity:0.8;
+    box-shadow: 2px 2px 5px rgb(72, 224, 105);
+}
+#partition2 > p{
+    border:1px hidden;
+    border-radius: 4px;
+    display:inline-block;
+    color:white;
+    cursor: pointer;
+    padding:8px 25px;
+    box-shadow: 3px 3px 5px rgb(214, 224, 216);
+    background-color:black;
+}
+#partition2 > p:hover{
+    opacity:0.9;
+    box-shadow: 1px 4px 10px rgb(211, 207, 207);
+}
+#partition2 > #tasklist{
+    border-bottom:1px solid rgb(212, 221, 221);
+    width:90%;
+    margin:5px auto;
+}
+#partition2 > #tasklist .taskdisplay:first-child{
+    border:1px solid rgb(212, 221, 221);
+    padding:10px 5px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#partition2 > #tasklist .taskdisplay{
+    border-bottom:1px solid rgb(212, 221, 221);
+    border-left:1px solid rgb(212, 221, 221);
+    border-right:1px solid rgb(212, 221, 221);
+    padding:10px 5px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#partition2 > #tasklist .cross{
+    font-size: 0.8rem;
+    position:absolute;
+    right:5px;
+    cursor:pointer;
+}
